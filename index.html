@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>B7R</title>
+<meta name="description" content="B7R — Experienced Staff • Minecraft & Minecraft Tier lists • Staff experience & verified roles">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="B7R">
+<meta property="og:title" content="B7R — Experienced Staff">
+<meta property="og:description" content="Minecraft & Minecraft Tier lists • Staff experience & verified roles">
+<meta property="og:url" content="https://tikxb7r.github.io/">
+<meta property="og:image" content="https://tikxb7r.github.io/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="B7R — Experienced Staff">
+<meta name="twitter:description" content="Minecraft & Minecraft Tier lists • Staff experience & verified roles">
+<meta name="twitter:image" content="https://tikxb7r.github.io/preview.png">
+<meta name="theme-color" content="#ff1f1f">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+:root{--bg:#1a0000;--card:#111;--line:#2a2a2a;--blue:#ff1f1f;--muted:#9a9a9a;--text:#fff}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;color:var(--text);font-family:Inter,system-ui,sans-serif;background:linear-gradient(#3a0505,#120202 70%,#000) fixed}
+nav{display:flex;justify-content:center;padding:10px 12px;position:sticky;top:0;z-index:5;background:linear-gradient(#000c,#0000);backdrop-filter:blur(6px)}
+.pill{display:inline-flex;gap:4px;padding:4px;border-radius:999px;background:#1a0808cc;border:1px solid #3a1212}
+nav button{padding:8px 20px;border:0;border-radius:999px;background:transparent;color:#b08a8a;font:600 14px Inter;cursor:pointer;transition:background .2s,color .2s,box-shadow .2s}
+nav button.on{background:linear-gradient(135deg,#2a8bff,#0a4fb3);color:#fff;box-shadow:0 0 14px #0a84ff88}
+.card{background:var(--card);border:1px solid #2e0f0f;border-radius:28px;max-width:480px;margin:28px auto;padding:24px;text-align:center}
+html{scroll-behavior:smooth}.card{scroll-margin-top:64px}
+h2{margin:0 0 20px;font-size:24px}
+.avatar{width:200px;height:200px;border-radius:50%;border:5px solid var(--blue);box-shadow:0 0 40px #ff1f1f88;object-fit:cover;background:#222}
+.name{font-size:56px;font-weight:600;font-style:italic;margin:14px 0 4px;background:linear-gradient(135deg,#ff2a2a 0%,#c01212 45%,#2a0000 80%,#000 100%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;filter:drop-shadow(0 0 2px #ff2a2a) drop-shadow(0 0 14px #ff1f1f66)}
+.role{color:var(--muted);font-size:22px;margin-bottom:16px}
+.bio-text{display:flex;flex-direction:column;gap:4px;margin:0 0 18px}.bio-text b{font-size:20px}.bio-text span{color:var(--muted);font-size:16px}
+.status{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border:1px solid var(--line);border-radius:18px;background:#181818;flex-wrap:wrap;justify-content:center}
+.dot{width:12px;height:12px;border-radius:50%;background:#777}
+.dot.online{background:#23a55a}.dot.idle{background:#f0b232}.dot.dnd{background:#f23f43}
+.info p{margin:10px 0}
+.links{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:12px}
+.links a{color:#fff;text-decoration:none;padding:10px 16px;border:1px solid var(--line);border-radius:12px}
+.links a:hover{border-color:var(--blue)}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
+.stat{border:1px solid var(--line);border-radius:20px;padding:18px 8px}
+.stat b{display:block;font-size:40px}
+.stat span{color:var(--muted);font-size:13px;letter-spacing:1px}
+#q{width:100%;padding:16px;border-radius:16px;border:1px solid var(--line);background:#141414;color:#fff;font:16px Inter;margin-bottom:12px}
+.chips{display:flex;gap:8px;justify-content:center;margin-bottom:20px}
+.chip{padding:10px 18px;border-radius:12px;border:1px solid var(--line);background:#141414;color:#fff;font:600 15px Inter;cursor:pointer}
+.chip.on{background:#fff;color:#000}
+.group{text-align:left;font-size:20px;margin:22px 0 10px}
+.item{position:relative;border:1px solid var(--line);border-radius:20px;padding:22px 14px 18px;margin-bottom:12px}
+.item h3{margin:0 0 12px}
+.proof{position:absolute;top:10px;right:12px;font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:8px;padding:4px 8px;text-decoration:none}
+.tag{display:inline-block;margin:3px;padding:8px 12px;border-radius:10px;font-weight:600;font-size:13px}
+.helper{background:#2b1a05;color:#ffb347;border:1px solid #7a4a12}
+.ss{background:#2a0a0a;color:#ff6b6b;border:1px solid #7a1c1c}
+.lead{background:#4a0d0d;color:#ff3b3b;border:1px solid #b02020}
+.mod{background:#0e2342;color:#4f9bff;border:1px solid #1e4a8a}.resigned{background:#1c1c1c;color:#bbb;border:1px solid #444}
+.disc{position:fixed;top:calc(8px + env(safe-area-inset-top,0px));right:12px;z-index:10;width:46px;height:46px;border-radius:50%;border:0;padding:0;cursor:pointer;
+background:radial-gradient(circle,#c01212 0 22%,#111 23% 30%,#1b1b1b 31% 34%,#0b0b0b 35% 46%,#1b1b1b 47% 50%,#0b0b0b 51%);
+box-shadow:0 0 12px #ff1f1f66,inset 0 0 0 1px #333;animation:spin 3s linear infinite;animation-play-state:paused}
+.disc::after{content:"";position:absolute;left:50%;top:50%;width:7px;height:7px;margin:-3.5px;border-radius:50%;background:#000}
+.disc.on{animation-play-state:running}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.disc.on{animation-duration:12s}}
+.vol{position:fixed;top:calc(8px + env(safe-area-inset-top,0px));left:12px;z-index:10;width:46px;border-radius:14px;background:#140505e6;border:2px solid #5a1515;overflow:hidden;transition:height .25s ease,border-color .2s;height:42px}
+.vol.open{height:170px;border-color:#ff2a2a;box-shadow:0 0 14px #ff1f1f55}
+.vol button{width:100%;height:38px;border:0;background:transparent;color:#fff;font-size:18px;cursor:pointer}
+.vol .track{position:relative;height:120px}
+.vol input{position:absolute;width:100px;height:20px;left:-27px;top:50px;margin:0;transform:rotate(-90deg);accent-color:#ff2a2a;cursor:pointer}
+body.locked{overflow:hidden}
+#intro{position:fixed;inset:0;z-index:100;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;overflow:hidden;
+background:radial-gradient(circle at 50% 45%,#5a0808 0,#1e0303 38%,#000 75%);transition:opacity .7s ease,visibility .7s}
+#intro.gone{opacity:0;visibility:hidden}
+.i-top{position:absolute;top:calc(28px + env(safe-area-inset-top,0px));left:0;right:0;text-align:center;font-size:12px;letter-spacing:3px;color:#b58a8a;padding:0 16px}
+.i-top i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#ff2a2a;box-shadow:0 0 8px #ff2a2a;margin-right:8px;vertical-align:middle}
+.i-logo{font-weight:600;font-style:italic;font-size:min(30vw,210px);letter-spacing:-.02em;line-height:1;
+background:linear-gradient(135deg,#ff2a2a 0%,#c01212 40%,#2a0000 75%,#000 100%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;
+filter:drop-shadow(0 0 3px #ff2a2a) drop-shadow(0 0 22px #ff1f1f88);animation:bob 4.5s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-8px)}}
+.i-enter{position:absolute;bottom:calc(80px + env(safe-area-inset-bottom,0px));left:0;right:0;text-align:center;font-weight:600;font-size:15px;letter-spacing:6px;color:#fff;text-shadow:0 0 12px #ff2a2a;animation:blink 1.8s ease-in-out infinite}
+@keyframes blink{50%{opacity:.35}}
+.spark{position:absolute;width:3px;height:3px;border-radius:50%;background:#ff6b6b;opacity:.2;animation:tw 3s ease-in-out infinite}
+@keyframes tw{50%{opacity:.9;transform:scale(1.8)}}
+@media (prefers-reduced-motion:reduce){.i-logo,.i-enter,.spark{animation:none}}
+.dlink{display:inline-flex;align-items:center;gap:6px;margin-top:12px;color:#8f9bff;font-size:14px;font-weight:600;text-decoration:none;word-break:break-all}.dlink:hover{text-decoration:underline}
+.unavail{display:inline-block;margin-top:12px;color:#8a8a8a;font-size:14px;font-weight:600}
+.lcards{display:grid;gap:14px;margin-top:14px}
+.lcard{display:block;border:1px solid var(--line);border-radius:22px;padding:26px 14px;color:#fff;text-decoration:none;cursor:pointer;background:#121212;transition:border-color .2s,transform .15s}
+.lcard:hover{border-color:#5a2a2a}.lcard:active{transform:scale(.98)}
+.lcard h4{margin:0 0 14px;font-size:24px;font-weight:700}
+.lpill{display:inline-block;padding:9px 16px;border-radius:10px;font-weight:700;font-size:15px;letter-spacing:1px;text-transform:uppercase}
+.lp-dc{background:#1b1b3d;color:#6a73ff;border:1px solid #2c2c66}
+.lp-tt{background:#10242a;color:#2ad4e8;border:1px solid #1b4a55}
+.lp-mc{background:#0d2a1d;color:#22c777;border:1px solid #17573a}
+.dur{display:inline-block;margin:3px;padding:8px 12px;border-radius:10px;font-size:13px;font-weight:600;color:#bbb;background:#161616;border:1px solid #333}
+.hide{display:none}
+</style>
+</head>
+<body class="locked">
+<div id="intro" role="button" tabindex="0" aria-label="Click to enter">
+  <div class="i-logo">B7R</div>
+  <div class="i-enter">[ CLICK TO ENTER ]</div>
+</div>
+<audio id="bgm" src="song.mp3" loop preload="auto"></audio>
+<div class="vol" id="vol">
+  <button id="volbtn" aria-label="Volume"><i class="fa-solid fa-volume-high" id="volico"></i></button>
+  <div class="track"><input id="volrange" type="range" min="0" max="1" step="0.01" value="0.6" aria-label="Volume level"></div>
+</div>
+<nav><div class="pill">
+  <button class="on" data-tab="bio">Bio</button>
+  <button data-tab="exp"><i class="fa-solid fa-briefcase"></i> Experience</button>
+</div></nav>
+
+<section id="bio" class="card">
+  <h2>Bio</h2>
+  <img class="avatar" src="me.jpg" alt="Profile photo">
+  <div class="name">B7R</div>
+  <div class="bio-text"><b>⚔️ Experienced Staff</b><span>Minecraft &amp; Minecraft Tier lists</span></div>
+  <div class="status"><span class="dot" id="dot"></span><i class="fa-brands fa-discord" style="color:#5865f2;font-size:20px"></i>
+    <span>Discord Status:</span><span id="dstat" style="color:var(--muted)">Offline</span><span style="color:var(--muted)">•</span>
+    <a href="#" id="dc" style="color:#ff6b6b;font-weight:600;text-decoration:none"><span id="dct">tikxb7r</span></a></div>
+  <div class="info">
+    <p><b>Age:</b> 16 y/o</p>
+    <p><b>Place:</b> Egypt</p>
+  </div>
+  <h3>Links</h3>
+  <div class="lcards">
+    <div class="lcard" data-copy="tikxb7r"><h4><i class="fa-brands fa-discord"></i> Discord</h4><span class="lpill lp-dc">tikxb7r</span></div>
+    <a class="lcard" href="https://tiktok.com/@b7r10000" target="_blank" rel="noopener"><h4>🎵 TikTok</h4><span class="lpill lp-tt">@b7r10000</span></a>
+    <a class="lcard" href="https://namemc.com/profile/RETOX999" target="_blank" rel="noopener"><h4><i class="fa-solid fa-cube"></i> NameMC</h4><span class="lpill lp-mc">RETOX999</span></a>
+  </div>
+</section>
+
+<section id="exp" class="card">
+  <h2><i class="fa-solid fa-briefcase"></i> Staff Experience</h2>
+  <div class="stats">
+    <div class="stat" style="grid-column:1/-1"><b id="n-total">0</b><span>TOTAL SERVERS</span></div>
+    <div class="stat"><b id="n-staff" style="color:#23c16b">0</b><span>STAFF SERVERS</span></div>
+    <div class="stat"><b id="n-res" style="color:#9a9a9a">0</b><span>RESIGNED SERVERS</span></div>
+  </div>
+  <input id="q" type="search" placeholder="Search server or role">
+  <div class="chips">
+    <button class="chip on" data-f="all">All</button>
+    <button class="chip" data-f="resigned">Resigned Servers</button>
+  </div>
+  <div id="list"></div>
+</section>
+
+<script>
+// ===== عدّل هنا =====
+const SERVERS = [
+  {name:"MetaMC", roles:["helper"], discord:"https://discord.gg/metamc"},
+  {name:"Solitary Tierlist", roles:["mod"], discord:"https://discord.gg/solitary-tierlist-1282314162030121033"},
+  {name:"SubutMC", duration:"8 months", roles:["rowner"], resigned:true, discord:"https://discord.gg/subut"},
+  {name:"Lucnoxity Tier List", duration:"1 month", roles:["rhelper"], resigned:true, discord:"https://discord.gg/luctierlist"},
+  {name:"Subut Players Community", duration:"2 months", roles:["rfounder"], resigned:true, note:"Unavailable"}
+];
+const ROLE = {helper:["HELPER","helper"], mod:["MOD","mod"], ss:["SCREENSHARER","ss"], lead:["HEAD SS","lead"], rowner:["RESIGNED OWNER","resigned"], rhelper:["RESIGNED HELPER","resigned"], rfounder:["RESIGNED FOUNDER","resigned"]};
+// ====================
+
+// Nav: scroll to section + highlight the one in view
+const navBtns=[...document.querySelectorAll('nav button')];
+navBtns.forEach(b=>b.onclick=()=>document.getElementById(b.dataset.tab).scrollIntoView({behavior:'smooth'}));
+function mark(){
+  const exp=document.getElementById('exp').getBoundingClientRect().top;
+  const cur=exp<window.innerHeight*0.45?'exp':'bio';
+  navBtns.forEach(b=>b.classList.toggle('on',b.dataset.tab===cur));
+}
+addEventListener('scroll',mark,{passive:true});mark();
+
+// Render servers
+const list=document.getElementById('list');
+const sections=[["Minecraft",SERVERS.filter(s=>!s.resigned)],["Resigned Servers",SERVERS.filter(s=>s.resigned)]];
+list.innerHTML=sections.filter(x=>x[1].length).map(([title,items])=>
+ `<div class="grp"><h3 class="group">${title}</h3>`+items.map(s=>
+ `<div class="item" data-resigned="${!!s.resigned}" data-s="${(s.name+' '+s.roles.map(r=>ROLE[r][0]).join(' ')).toLowerCase()}">
+  <h3>${s.name}</h3>${s.roles.map(r=>`<span class="tag ${ROLE[r][1]}">${ROLE[r][0]}</span>`).join('')}${s.duration?`<span class="dur">⏱ ${s.duration}</span>`:''}${s.discord?`<br><a class="dlink" href="${s.discord}" target="_blank" rel="noopener"><i class="fa-brands fa-discord"></i> ${s.discord.replace(/^https?:\/\//,'')}</a>`:(s.note?`<br><span class="unavail">${s.note}</span>`:'')}</div>`).join('')+`</div>`).join('');
+document.getElementById('n-total').textContent=SERVERS.length;
+document.getElementById('n-staff').textContent=SERVERS.filter(x=>!x.resigned).length;
+document.getElementById('n-res').textContent=SERVERS.filter(x=>x.resigned).length;
+
+// Search + filter
+let filter='all';
+function apply(){
+  const t=document.getElementById('q').value.toLowerCase();
+  document.querySelectorAll('.item').forEach(i=>{
+    const ok=i.dataset.s.includes(t)&&(filter==='all'||i.dataset.resigned==='true');
+    i.classList.toggle('hide',!ok);
+  });
+  document.querySelectorAll('.grp').forEach(g=>g.classList.toggle('hide',!g.querySelector('.item:not(.hide)')));
+}
+document.getElementById('q').oninput=apply;
+document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{
+  document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));
+  c.classList.add('on'); filter=c.dataset.f; apply();
+});
+
+// Music starts when the visitor enters (a tap is required by browsers)
+const bgm=document.getElementById('bgm');
+
+// Intro screen
+const intro=document.getElementById('intro');
+for(let i=0;i<22;i++){const p=document.createElement('span');p.className='spark';
+  p.style.left=Math.random()*100+'%';p.style.top=Math.random()*100+'%';
+  p.style.animationDelay=(Math.random()*3)+'s';p.style.animationDuration=(2+Math.random()*3)+'s';intro.appendChild(p)}
+function enter(){
+  if(intro.classList.contains('gone'))return;
+  intro.classList.add('gone');document.body.classList.remove('locked');
+  bgm.play().catch(()=>{});
+  setTimeout(()=>intro.remove(),800);
+}
+intro.addEventListener('click',enter);
+intro.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();enter()}});
+intro.focus();
+
+// Live Discord status (Lanyard — needs the account to be in discord.gg/lanyard)
+const DISCORD_ID="1244625327523758136";
+const ST={online:["Online","#23a55a"],idle:["Idle","#f0b232"],dnd:["Do Not Disturb","#f23f43"],offline:["Offline","#9a9a9a"]};
+async function dstatus(){
+  try{
+    const r=await fetch('https://api.lanyard.rest/v1/users/'+DISCORD_ID);
+    const j=await r.json();
+    if(!j.success)return;
+    const k=ST[j.data.discord_status]?j.data.discord_status:'offline';
+    document.getElementById('dot').className='dot '+k;
+    const el=document.getElementById('dstat');el.textContent=ST[k][0];el.style.color=ST[k][1];
+  }catch(e){}
+}
+dstatus();setInterval(dstatus,30000);
+
+// Tap-to-copy cards (Discord username)
+document.querySelectorAll('[data-copy]').forEach(c=>c.onclick=()=>{
+  const p=c.querySelector('.lpill'),u=c.dataset.copy;
+  (navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).catch(()=>{}).finally(()=>{p.textContent='Copied!';setTimeout(()=>p.textContent=u,1200)});
+});
+
+// Volume control (top-left)
+const vol=document.getElementById('vol'),rng=document.getElementById('volrange'),ico=document.getElementById('volico');
+function setVol(v){bgm.volume=v;ico.className='fa-solid '+(v===0?'fa-volume-xmark':v<0.4?'fa-volume-low':'fa-volume-high')}
+rng.oninput=()=>setVol(+rng.value);
+document.getElementById('volbtn').onclick=e=>{e.stopPropagation();vol.classList.toggle('open')};
+vol.addEventListener('click',e=>e.stopPropagation());
+addEventListener('click',()=>vol.classList.remove('open'));
+setVol(0.6);
+
+// Copy Discord username on tap
+document.getElementById('dc').onclick=e=>{e.preventDefault();
+  const t=document.getElementById('dct'),u='tikxb7r';
+  (navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).catch(()=>{}).finally(()=>{t.textContent='Copied!';setTimeout(()=>t.textContent=u,1200)});
+};
+</script>
+</body>
+</html>
